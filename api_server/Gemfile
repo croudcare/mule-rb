@@ -1,0 +1,15 @@
+# A sample Gemfile
+source "https://rubygems.org"
+
+gem 'rack'
+gem 'sinatra'
+gem 'signature'
+gem 'redis'
+gem 'active_support'
+gem 'pry'
+gem 'thin'
+
+
+group :test do 
+  gem 'rspec'
+end
