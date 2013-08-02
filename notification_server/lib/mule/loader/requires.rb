@@ -1,7 +1,8 @@
+module Mule; end
+
+
 require 'bundler/setup'
 Bundler.require :default
-
-
 
 require 'eventmachine'
 require 'em-hiredis'

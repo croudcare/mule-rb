@@ -1,5 +1,4 @@
 # encoding: utf-8
-module Mule; end
 
 require 'mule/loader/requires'
 
@@ -25,8 +24,6 @@ MULE_NAME = <<-end
     MMMMMMMM               MMMMMMMM     UUUUUUUUU     LLLLLLLLLLLLLLLLLLLLLLLEEEEEEEEEEEEEEEEEEEEEE
       by Linkedcare
 end
-
-
 
 EM.run do
   Mule::Service.run
